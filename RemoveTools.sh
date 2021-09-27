@@ -18,5 +18,6 @@ esac
 echo -e "\e[32m[*] \e[34mCleaning up..."
 rm -rf RemoveTools.sh
 echo
-echo -e "\e[32mTools were successfully uninstalled!\e[39m"
+echo -e "\e[32successfully uninstalled!\e[39m"
 echo
+echo -e "\e[32By by"
