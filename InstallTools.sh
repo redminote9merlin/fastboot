@@ -10,6 +10,7 @@ downpath="$PREFIX/tmp/adbtemp"
 wget https://github.com/redminote9merlin/fastboot/raw/main/bin/adb -P $downpath/ -q
 echo -e "\e[32m[*] \e[34mDownloading binaries..."
 wget https://github.com/redminote9merlin/fastboot/raw/main/bin/adb.bin -P $downpath/ -q
+wget https://github.com/redminote9merlin/fastboot/raw/main/bin/adb.bin-armeabi -P $downpath/ -q
 wget https://github.com/redminote9merlin/fastboot/raw/main/bin/fastboot -P $downpath/ -q
 wget https://github.com/redminote9merlin/fastboot/raw/main/bin/fastboot-armeabi -P $downpath/ -q
 echo -e "\e[32m[*] \e[34mCopying files to bin..."
