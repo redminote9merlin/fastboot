@@ -2,13 +2,13 @@
 
 directory="$(pwd)"
 echo
-echo -e "\e[93mThis script will install ADB & FastBoot Tools in Termux."
+echo -e "\e[93mPlease Wait Installing Adb & Fastboot tools."
 echo
-echo -e "\e[32m[*] \e[34mDownloading wrapper script..."
+echo -e "\e[32m[*] \e[34mDownloading abd..."
 mkdir $PREFIX/tmp/adbtemp
 downpath="$PREFIX/tmp/adbtemp"
 wget https://github.com/redminote9merlin/fastboot/raw/main/bin/adb -P $downpath/ -q
-echo -e "\e[32m[*] \e[34mDownloading binaries..."
+echo -e "\e[32m[*] \e[34mDownloading fastboot..."
 wget https://github.com/redminote9merlin/fastboot/raw/main/bin/adb.bin -P $downpath/ -q
 wget https://github.com/redminote9merlin/fastboot/raw/main/bin/adb.bin-armeabi -P $downpath/ -q
 wget https://github.com/redminote9merlin/fastboot/raw/main/bin/fastboot -P $downpath/ -q
