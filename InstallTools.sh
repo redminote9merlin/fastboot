@@ -1,5 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
-pkg install tsu
+
 directory="$(pwd)"
 echo
 echo -e "\e[93mPlease Wait Installing Adb & Fastboot tools."
