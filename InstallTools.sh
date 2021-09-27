@@ -31,4 +31,4 @@ rm -rf InstallTools.sh
 echo
 echo -e "\e[32Adb & Fastboot were successfully installed!\e[39m"
 echo
-
+echo
