@@ -1,5 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
-pkg install tsu
+
 
 echo
 echo -e "\e[93mThis script will remove ADB & FastBoot Tools from Termux."
@@ -20,4 +20,4 @@ rm -rf RemoveTools.sh
 echo
 echo -e "\e[32successfully uninstalled!\e[39m"
 echo
-echo -e "\e[32By by"
+
